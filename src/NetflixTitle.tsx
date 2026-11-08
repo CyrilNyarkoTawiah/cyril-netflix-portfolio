@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './NetflixTitle.css';
 import netflixSound from './netflix-sound.mp3';
 import { useNavigate } from 'react-router-dom';
-import CyrilWordmark from '../components/CyrilWordmark';
+import CyrilWordmark from './components/CyrilWordmark';
 
 const NetflixTitle = () => {
   const [isClicked, setIsClicked] = useState(false);
