@@ -89,9 +89,12 @@ const Projects: React.FC = () => {
     <div className="projects-container">
       <div className="projects-grid">
         {projects.map((project, index) => (
-          <div
+          <a
             key={index}
             className="project-card"
+            href={project.link || 'https://www.behance.net/cyriltawiah'}
+            target="_blank"
+            rel="noopener noreferrer"
             style={{ '--delay': `${index * 0.1}s` } as React.CSSProperties}
           >
             <img src={project.image.url} alt={project.title} className="project-image" />
@@ -106,7 +109,7 @@ const Projects: React.FC = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </div>

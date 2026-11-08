@@ -1,38 +1,52 @@
 .netflix-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   background-color: #141414;
   overflow: hidden;
+  gap: 1.5rem;
+  cursor: pointer;
 }
 
-.netflix-logo {
-  width: 500px;
-  height: auto;
-  opacity: 0;
-  transform: scale(0.8);
-  animation: fadeIn 0.5s forwards ease-in;
+/* container holding the wordmark during the intro */
+.netflix-title-logo {
+  opacity: 1;
 }
 
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-.animate.netflix-logo {
-  animation: zoomOut 3s forwards ease-in-out;
+/* after click: hold, then fade/zoom open like the Netflix title card */
+.netflix-title-logo.animate {
+  animation: zoomOut 3s 1.2s forwards ease-in-out;
 }
 
 @keyframes zoomOut {
-  0%, 80% {
-    transform: scale(0.8);
+  0%, 60% {
+    transform: scale(0.96);
     opacity: 1;
   }
   100% {
-    transform: scale(3);
+    transform: scale(2.6);
     opacity: 0;
   }
+}
+
+.netflix-title-hint {
+  color: #7a7a7a;
+  font-size: 0.95rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  margin: 0;
+  opacity: 0;
+  animation: hintIn 1s 1.6s forwards ease;
+}
+
+@keyframes hintIn {
+  to { opacity: 1; }
+}
+
+/* legacy classes kept harmless */
+.netflix-logo,
+.animate.netflix-logo {
+  display: none;
 }

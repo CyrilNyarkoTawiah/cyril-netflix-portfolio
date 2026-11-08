@@ -28,7 +28,7 @@ export const IMAGES = { autumn, bluecrest, house, rooftop, william, yayra, amazo
 export const profileBanner: PB = {
   backgroundImage: { url: autumn },
   headline: 'I build things people remember.',
-  resumeLink: { url: '/resume.pdf' },
+  resumeLink: { url: 'https://www.instagram.com/blizzard_graphics?srtk=ZWRwd2lqNnYxMTl4' },
   linkedinLink: 'https://www.linkedin.com/in/cyril-nyarko-tawiah-229060151',
   profileSummary:
     "Cyril Nyarko Tawiah — Designer · 3D Visualizer · Developer based in Accra, Ghana. At Ghana's CSIR-Institute for Scientific and Technological Information I craft brand identities, publications, hyperreal 3D visualization and animation — and I help digitalize knowledge and information systems. From THOU ART and Farm Academy identities to an exhibited 'Best of the Best' render at DCDA 2024 (California State University, Long Beach). I also ship: my two-player web game Duo Blocks is live, and Android apps are on the way. MPhil Information Systems @ UPSA."
@@ -52,23 +52,23 @@ export const timeline: TI[] = [
 ];
 
 export const projects: PR[] = [
-  { title: 'Apex Legends — Autumn Estates Reimagined', description: 'Speculative architectural remodeling of Autumn Estates — a "Best of the Best" exhibit at the DCDA Long Beach International Design Invitation Exhibition, California State University, Long Beach, representing Ghana.', techUsed: 'SketchUp Pro, Lumion 10, Adobe Lightroom', image: { url: autumn } },
-  { title: 'BlueCrest Campus 3D Visualization', description: 'Final-year flagship: the entire BlueCrest campus modeled and rendered — featured on the college blog, intranet and YouTube.', techUsed: 'SketchUp Pro, Lumion 10, Lightroom, Filmora', image: { url: bluecrest } },
-  { title: 'Modern One-Storey House (Open Floor Plan)', description: 'Concept residential design with open-plan living — my most-viewed Behance project.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: house } },
-  { title: 'Christiansburg Hotel Rooftop Bar', description: 'Commercial concept design — rooftop bar for Christiansburg Hotel, Labone, Accra.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: rooftop } },
-  { title: 'William & Co: 4-Storey Apartment', description: 'Interior design and full 3D visualization of a four-storey residential apartment.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: william } },
-  { title: 'Yayra Glover: 3 Apartments', description: 'Residential apartment visualization set from the 2019–2020 architectural animation era.', techUsed: 'SketchUp Pro, 3D Modeling', image: { url: yayra } },
-  { title: 'Concept: Office in the Amazon', description: 'What if there was an office in the middle of the Amazon? Concept environment modeling.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: amazon } },
-  { title: 'Project CSIR-INSTI: Modeling & Animation', description: 'Institute walkthrough — modeling and animation for CSIR-INSTI.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: csirinsti } },
-  { title: 'CSIR-CRI Book of Abstracts 2018', description: 'Book design and print layout for the CSIR-Crops Research Institute\'s Book of Abstracts.', techUsed: 'Adobe, Print Design', image: { url: cribook } },
-  { title: 'Citation Design for CSIR Institutes', description: 'Citation graphics design and printing for CSIR institutes — consistency with CSIR branding.', techUsed: 'Adobe, Print Design, Branding', image: { url: citation } },
-  { title: 'THOU ART — Brand Identity & Guidelines', description: 'Complete brand identity system with full guidelines.', techUsed: 'Adobe, CorelDRAW, Branding', image: { url: thouart } },
-  { title: 'Farm Academy — Logo, Identity & Guidelines', description: 'Farm Academy visual identity: logo, brand identity system and guidelines.', techUsed: 'CorelDRAW, Figma, Branding', image: { url: farm } },
-  { title: 'Owusu Aduome Law Firm — Brand Identity', description: 'Identity and brand guidelines for a law firm — serious, trustworthy, memorable.', techUsed: 'CorelDRAW, Figma, Branding', image: { url: lawfirm } },
-  { title: 'Concept Rooftop Gym & Rock Climbing', description: 'Concept recreation space — rooftop gym fused with rock climbing.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: gym } },
-  { title: 'Oasis Resort — Modelling & Animation', description: 'Resort concept modelled and animated.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: oasis } },
-  { title: 'Soccer Stadium', description: 'Stadium concept modeling.', techUsed: 'SketchUp Pro, 3D Modeling', image: { url: stadium } },
-  { title: 'Concept: The Big Date', description: 'A stylized concept piece.', techUsed: '3D Modeling, Concept Design', image: { url: bigdate } }
+  { title: 'Apex Legends — Autumn Estates Reimagined', description: 'Speculative architectural remodeling of Autumn Estates — a "Best of the Best" exhibit at the DCDA Long Beach International Design Invitation Exhibition, California State University, Long Beach, representing Ghana.', techUsed: 'SketchUp Pro, Lumion 10, Adobe Lightroom', image: { url: autumn }, link: 'https://www.behance.net/gallery/198041377/Project-Apex-Legends-Remodeling-Autumn-Estates' },
+  { title: 'BlueCrest Campus 3D Visualization', description: 'Final-year flagship: the entire BlueCrest campus modeled and rendered — featured on the college blog, intranet and YouTube.', techUsed: 'SketchUp Pro, Lumion 10, Lightroom, Filmora', image: { url: bluecrest }, link: 'https://www.behance.net/gallery/198042179/Project-BlueCrest-College-Modeling-and-Animation' },
+  { title: 'Modern One-Storey House (Open Floor Plan)', description: 'Concept residential design with open-plan living — my most-viewed Behance project.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: house }, link: 'https://www.behance.net/gallery/184091901/Modern-One-Storey-House-With-Open-Floor-Plan-Concept' },
+  { title: 'Christiansburg Hotel Rooftop Bar', description: 'Commercial concept design — rooftop bar for Christiansburg Hotel, Labone, Accra.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: rooftop }, link: 'https://www.behance.net/gallery/198045159/Project-Design-Christiansburg-Hotel-Rooftop-Bar-Labone' },
+  { title: 'William & Co: 4-Storey Apartment', description: 'Interior design and full 3D visualization of a four-storey residential apartment.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: william }, link: 'https://www.behance.net/gallery/198189111/Project-William-Co-4-Storey-Apartment' },
+  { title: 'Yayra Glover: 3 Apartments', description: 'Residential apartment visualization set from the 2019–2020 architectural animation era.', techUsed: 'SketchUp Pro, 3D Modeling', image: { url: yayra }, link: 'https://www.behance.net/gallery/198187701/Project-Yayra-Glover-3-Apartments' },
+  { title: 'Concept: Office in the Amazon', description: 'What if there was an office in the middle of the Amazon? Concept environment modeling.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: amazon }, link: 'https://www.behance.net/gallery/198185409/Project-Amazon-Concept-Model-of-an-office-in-the-Amazon' },
+  { title: 'Project CSIR-INSTI: Modeling & Animation', description: 'Institute walkthrough — modeling and animation for CSIR-INSTI.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: csirinsti }, link: 'https://www.behance.net/gallery/198044169/Project-CSIR-INSTI-Modeling-and-animation' },
+  { title: 'CSIR-CRI Book of Abstracts 2018', description: 'Book design and print layout for the CSIR-Crops Research Institute\'s Book of Abstracts.', techUsed: 'Adobe, Print Design', image: { url: cribook }, link: 'https://www.behance.net/gallery/208531245/CSIR-CRI-BOOK-OF-ABSTRACTS-2018-BOOK-DESIGN' },
+  { title: 'Citation Design for CSIR Institutes', description: 'Citation graphics design and printing for CSIR institutes — consistency with CSIR branding.', techUsed: 'Adobe, Print Design, Branding', image: { url: citation }, link: 'https://www.behance.net/gallery/208532541/CITATION-DESIGN-FOR-CSIR-INSTITUTES' },
+  { title: 'THOU ART — Brand Identity & Guidelines', description: 'Complete brand identity system with full guidelines.', techUsed: 'Adobe, CorelDRAW, Branding', image: { url: thouart }, link: 'https://www.behance.net/gallery/198038355/THOU-ART-BRAND-IDENTITY-and-BRAND-GUIDLINE' },
+  { title: 'Farm Academy — Logo, Identity & Guidelines', description: 'Farm Academy visual identity: logo, brand identity system and guidelines.', techUsed: 'CorelDRAW, Figma, Branding', image: { url: farm }, link: 'https://www.behance.net/gallery/208533375/FARM-ACADEMY-LOGO-IDENTITY-and-BRAND-GUIDLINE' },
+  { title: 'Owusu Aduome Law Firm — Brand Identity', description: 'Identity and brand guidelines for a law firm — serious, trustworthy, memorable.', techUsed: 'CorelDRAW, Figma, Branding', image: { url: lawfirm }, link: 'https://www.behance.net/gallery/198039963/owusu-aduome-lawfirm-BRAND-IDENTITY-and-BRAND-GUIDLINE' },
+  { title: 'Concept Rooftop Gym & Rock Climbing', description: 'Concept recreation space — rooftop gym fused with rock climbing.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: gym }, link: 'https://www.behance.net/gallery/198194829/Project-Concept-Rooftop-gym-and-rock-climbing' },
+  { title: 'Oasis Resort — Modelling & Animation', description: 'Resort concept modelled and animated.', techUsed: 'SketchUp Pro, Lumion 10', image: { url: oasis }, link: 'https://www.behance.net/gallery/198044735/Project-Oasis-Resort-Modelling-and-Animation' },
+  { title: 'Soccer Stadium', description: 'Stadium concept modeling.', techUsed: 'SketchUp Pro, 3D Modeling', image: { url: stadium }, link: 'https://www.behance.net/gallery/198043429/Project-Soccer-Staduim' },
+  { title: 'Concept: The Big Date', description: 'A stylized concept piece.', techUsed: '3D Modeling, Concept Design', image: { url: bigdate }, link: 'https://www.behance.net/gallery/198186421/Project-Concept-The-Big-Date' }
 ];
 
 export const certifications: CE[] = [

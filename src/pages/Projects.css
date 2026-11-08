@@ -87,3 +87,34 @@
   margin-right: 5px;
   font-size: 1.2rem;
 }
+
+/* clickable Behance cards */
+a.project-card {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  position: relative;
+}
+
+a.project-card:hover {
+  transform: translateY(-6px) scale(1.02);
+}
+
+a.project-card::after {
+  content: "View on Behance \2197";
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(255,255,255,0.92);
+  color: #1a1a1a;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  z-index: 2;
+}
+
+a.project-card:hover::after { opacity: 1; }
