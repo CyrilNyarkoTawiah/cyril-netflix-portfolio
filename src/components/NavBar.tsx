@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaHome, FaBriefcase, FaTools, FaProjectDiagram, FaEnvelope } from 'react-icons/fa'; // Import icons
 import './Navbar.css';
-import netflixLogo from '../images/logo-2.png';
+import CyrilWordmark from './CyrilWordmark';
 import blueImage from '../images/blue.png';
 
 const Navbar: React.FC = () => {
@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
       {/* Sidebar (only visible on mobile) */}
       <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-logo">
-          <img src={netflixLogo} alt="Netflix Logo" />
+          <CyrilWordmark className="navbar-wordmark" />
         </div>
         <ul>
           <li><Link to="/browse" onClick={closeSidebar}><FaHome /> Home</Link></li>
