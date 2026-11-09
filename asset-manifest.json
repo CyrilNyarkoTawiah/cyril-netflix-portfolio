@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.35b2b6fa.css",
-    "main.js": "./static/js/main.bbdf3117.js",
+    "main.css": "./static/css/main.8c813520.css",
+    "main.js": "./static/js/main.2fc1b2eb.js",
     "static/js/453.ef465fa1.chunk.js": "./static/js/453.ef465fa1.chunk.js",
     "static/media/p15_oasis.jpg": "./static/media/p15_oasis.d19fae26700635e23404.jpg",
     "static/media/p17_bigdate.jpg": "./static/media/p17_bigdate.102019b636c584bbeffb.jpg",
@@ -23,13 +23,14 @@
     "static/media/p02_bluecrest.jpg": "./static/media/p02_bluecrest.8c52a54e74bcf4e389d5.jpg",
     "static/media/p11_thouart.png": "./static/media/p11_thouart.5ae99860ab2235615a25.png",
     "static/media/cyril.jpg": "./static/media/cyril.2d4ba819016550da17ad.jpg",
+    "static/media/cyril-arc.png": "./static/media/cyril-arc.f7ebb877cf21779a79c4.png",
     "index.html": "./index.html",
-    "main.35b2b6fa.css.map": "./static/css/main.35b2b6fa.css.map",
-    "main.bbdf3117.js.map": "./static/js/main.bbdf3117.js.map",
+    "main.8c813520.css.map": "./static/css/main.8c813520.css.map",
+    "main.2fc1b2eb.js.map": "./static/js/main.2fc1b2eb.js.map",
     "453.ef465fa1.chunk.js.map": "./static/js/453.ef465fa1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35b2b6fa.css",
-    "static/js/main.bbdf3117.js"
+    "static/css/main.8c813520.css",
+    "static/js/main.2fc1b2eb.js"
   ]
 }
