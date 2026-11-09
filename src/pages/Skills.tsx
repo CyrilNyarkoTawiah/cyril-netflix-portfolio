@@ -74,9 +74,13 @@ const Skills: React.FC = () => {
               <div key={idx} className="skill-card">
                 <div className="icon">{iconMap[skill.icon] || <FaReact />}</div>
                 <h3 className="skill-name">
-                  {skill.name.split('').map((letter: any, i: number) => (
-                    <span key={i} className="letter" style={{ animationDelay: `${i * 0.05}s` }}>
-                      {letter}
+                  {skill.name.split(' ').map((word: any, wi: number) => (
+                    <span key={wi} className="skill-word">
+                      {word.split('').map((letter: any, i: number) => (
+                        <span key={i} className="letter" style={{ animationDelay: `${(wi * 2 + i) * 0.05}s` }}>
+                          {letter}
+                        </span>
+                      ))}
                     </span>
                   ))}
                 </h3>

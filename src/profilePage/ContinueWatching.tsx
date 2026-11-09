@@ -15,7 +15,6 @@ interface ContinueWatchingProps {
 
 const continueWatchingConfig = {
   recruiter: [
-    { title: "Music", imgSrc: thouart, link: "/music" },
     { title: "Reading", imgSrc: cribook, link: "/reading" },
     { title: "Blogs", imgSrc: citation, link: "/blogs" },
     { title: "Contact Me", imgSrc: bigdate, link: "/contact-me" }
@@ -45,7 +44,7 @@ const ContinueWatching: React.FC<ContinueWatchingProps> = ({ profile }) => {
 
   return (
     <div className="continue-watching-row">
-      <h2 className="row-title">Continue Watching for {profile}</h2>
+      <h2 className="row-title">Continue Watching for Visitor</h2>
       <div className="card-row">
         {continueWatching.map((pick, index) => (
           <Link to={pick.link} key={index} className="pick-card">

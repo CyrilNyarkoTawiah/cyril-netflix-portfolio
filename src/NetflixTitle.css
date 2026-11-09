@@ -10,6 +10,14 @@
   cursor: pointer;
 }
 
+/* the arched CYRIL image wordmark */
+.netflix-logo-img {
+  width: min(640px, 80vw);
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 10px 24px rgba(0,0,0,0.6));
+}
+
 /* container holding the wordmark during the intro */
 .netflix-title-logo {
   opacity: 1;
