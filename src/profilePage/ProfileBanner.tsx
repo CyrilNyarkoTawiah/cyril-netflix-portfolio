@@ -30,14 +30,14 @@ const ProfileBanner: React.FC = () => {
 
   return (
     <div className="profile-banner">
-      <iframe
+      <video
         className="banner-video"
-        src="https://www.youtube.com/embed/CZ8FqCtD_I0?autoplay=1&mute=1&loop=1&playlist=CZ8FqCtD_I0&controls=0&rel=0&playsinline=1&modestbranding=1"
-        title="Showreel"
-        allow="autoplay; encrypted-media"
-        frameBorder="0"
-        allowFullScreen
-      ></iframe>
+        src={`${process.env.PUBLIC_URL}` + '/videos/insti-render.mp4'}
+        autoPlay
+        muted
+        loop
+        playsInline
+      ></video>
       <div className="banner-scrim"></div>
       <div className="banner-content">
         <h1 className="banner-headline" id='headline'>{bannerData.headline}</h1>

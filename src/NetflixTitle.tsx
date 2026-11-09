@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './NetflixTitle.css';
 import netflixSound from './netflix-sound.mp3';
 import { useNavigate } from 'react-router-dom';
-import CyrilWordmark from './components/CyrilWordmark';
+import cyrilArc from './images/cyril-arc.png';
 
 const NetflixTitle = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -26,7 +26,7 @@ const NetflixTitle = () => {
   return (
     <div className="netflix-container" onClick={handlePlaySound}>
       <div className={`netflix-title-logo ${isClicked ? 'animate' : ''}`}>
-        <CyrilWordmark className={`title-wordmark ${isClicked ? 'sweep' : 'intro-reveal'}`} />
+        <img src={cyrilArc} alt="CYRIL" className="netflix-logo-img" />
       </div>
       <p className="netflix-title-hint">Click to enter</p>
     </div>

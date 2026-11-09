@@ -50,3 +50,7 @@
 .animate.netflix-logo {
   display: none;
 }
+
+/* arched CYRIL image wordmark */
+.netflix-logo-img { width: min(640px, 80vw); height: auto; display: block; filter: drop-shadow(0 10px 24px rgba(0,0,0,0.6)); }
+.netflix-logo, .animate.netflix-logo { display: none; }

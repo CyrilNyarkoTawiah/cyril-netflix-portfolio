@@ -20,7 +20,6 @@ interface TopPicksRowProps {
 
 const topPicksConfig = {
   recruiter: [
-    { title: "Work Permit", imgSrc: william, icon: <FaPassport />, route: "/work-permit" },
     { title: "Skills", imgSrc: thouart, icon: <FaCode />, route: "/skills" },
     { title: "Experience", imgSrc: cribook, icon: <FaBriefcase />, route: "/work-experience" },
     { title: "Certifications", imgSrc: farm, icon: <FaCertificate />, route: "/certifications" },
@@ -59,7 +58,7 @@ const TopPicksRow: React.FC<TopPicksRowProps> = ({ profile }) => {
 
   return (
     <div className="top-picks-row">
-      <h2 className="row-title">Today's Top Picks for {profile}</h2>
+      <h2 className="row-title">Today's Top Picks for Visitor</h2>
       <div className="card-row">
       {topPicks.map((pick, index) => (
           <div 

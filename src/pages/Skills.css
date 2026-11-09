@@ -119,3 +119,6 @@
     transform: translateY(10);
   }
 }
+
+/* two-word skill names stack: one word per line */
+.skill-word { display: block; width: 100%; }

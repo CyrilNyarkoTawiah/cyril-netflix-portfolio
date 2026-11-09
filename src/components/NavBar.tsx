@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaHome, FaBriefcase, FaTools, FaProjectDiagram, FaEnvelope } from 'react-icons/fa'; // Import icons
 import './Navbar.css';
-import CyrilWordmark from './CyrilWordmark';
+import cyrilArc from '../images/cyril-arc.png';
 import blueImage from '../images/blue.png';
 
 const Navbar: React.FC = () => {
@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
       <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
         <div className="navbar-left">
           <Link to="/" className="navbar-logo">
-            <CyrilWordmark className="navbar-wordmark" />
+            <img src={cyrilArc} alt="CYRIL" className="navbar-logo-img" />
           </Link>
           <ul className="navbar-links">
             <li><Link to="/browse">Home</Link></li>
@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
       {/* Sidebar (only visible on mobile) */}
       <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-logo">
-          <CyrilWordmark className="navbar-wordmark" />
+          <img src={cyrilArc} alt="CYRIL" className="navbar-logo-img" />
         </div>
         <ul>
           <li><Link to="/browse" onClick={closeSidebar}><FaHome /> Home</Link></li>

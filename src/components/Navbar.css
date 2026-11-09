@@ -176,3 +176,6 @@
     justify-content: center;
   }
 }
+
+img.navbar-logo-img { width: auto; height: 30px; display: block; }
+.sidebar img.navbar-logo-img { height: 40px; margin: 10px auto; }

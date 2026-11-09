@@ -9,9 +9,9 @@ const Browse: React.FC = () => {
 
   const profiles = [
     {
-      name: "recruiter",
+      name: "Visitor",
       image: blueImage,
-      backgroundGif: "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTZ5eWwwbjRpdWM1amxyd3VueHhteTVzajVjeGZtZGJ1dDc4MXMyNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/16u7Ifl2T4zYfQ932F/giphy.gif" // Dark storm clouds
+      backgroundGif: ""
     },
   ];
 
