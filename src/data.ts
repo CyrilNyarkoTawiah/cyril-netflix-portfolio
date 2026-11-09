@@ -31,7 +31,7 @@ export const profileBanner: PB = {
   resumeLink: { url: 'https://www.instagram.com/blizzard_graphics?srtk=ZWRwd2lqNnYxMTl4' },
   linkedinLink: 'https://www.linkedin.com/in/cyril-nyarko-tawiah-229060151',
   profileSummary:
-    "Cyril Nyarko Tawiah — Designer · 3D Visualizer · Developer based in Accra, Ghana. At Ghana's CSIR-Institute for Scientific and Technological Information I craft brand identities, publications, hyperreal 3D visualization and animation — and I help digitalize knowledge and information systems. From THOU ART and Farm Academy identities to an exhibited 'Best of the Best' render at DCDA 2024 (California State University, Long Beach). I also ship: my two-player web game Duo Blocks is live, and Android apps are on the way. MPhil Information Systems @ UPSA."
+"I bring ideas to life through design, technology & 3D creativity — a multidisciplinary creative spanning graphic design, branding, architectural visualisation, animation and motion graphics. At Ghana's CSIR-INSTI I craft logos, brand identities, brochures, posters and immersive 3D visuals that leave lasting impressions — including a “Best of the Best” architectural render exhibited at DCDA 2024 (California State University, Long Beach). I also ship: Duo Blocks, my two-player web game, is live, with Android apps on the way. Anchored by a BSc and ongoing MPhil in Information Systems @ UPSA, I combine aesthetics, innovation and functionality in every brief—telling stories visually with detail and intent."
 };
 
 export const workPermit: WP = {

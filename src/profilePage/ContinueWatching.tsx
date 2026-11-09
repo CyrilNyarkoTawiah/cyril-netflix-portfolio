@@ -15,8 +15,6 @@ interface ContinueWatchingProps {
 
 const continueWatchingConfig = {
   recruiter: [
-    { title: "Music", imgSrc: thouart, link: "/music" },
-    { title: "Reading", imgSrc: cribook, link: "/reading" },
     { title: "Blogs", imgSrc: citation, link: "/blogs" },
     { title: "Contact Me", imgSrc: bigdate, link: "/contact-me" }
   ],
